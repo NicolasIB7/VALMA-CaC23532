@@ -111,6 +111,7 @@ nav a {
     height: auto; /* Esto asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
     margin: 0 auto; /* Centra horizontalmente la imagen dentro de su contenedor */
+    border-radius: 2%;
 }
 
 /* Centrar el iframe */
@@ -177,6 +178,179 @@ footer {
 
 .footer-icons a {
     margin: 0 10px;
+}
+
+.section1{
+    display: flex;
+    flex-direction:row;
+    margin: 3%;
+
+}
+.hierbas1-text{
+    margin-top: 10%;
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: large;
+}
+
+.hierbas1{
+height: 40%;
+width: 40%;
+border-radius: 5%;
+}
+
+.section2{
+    display: flex;
+    flex-direction:row;
+    margin: 1%;
+    margin-top: 5%;
+
+}
+.hierbas2-text{
+
+    margin-left: 4%;
+}
+
+.hierbas2{
+height: 50%;
+width: 50%;
+border-radius: 5%;
+}
+
+.section3{
+    display: flex;
+    flex-direction:row;
+    margin: 2%;
+    margin-top: 5%;
+
+}
+.hierbas3-text{
+margin-top: 3%;
+    margin-right: 4%;
+}
+
+.hierbas3{
+height: 600px;
+width: 80%;
+border-radius: 5%;
+}
+
+.section4{
+    display: flex;
+    flex-direction:row;
+    margin: 5%;
+    margin-top: 5%;
+
+}
+.medicine1-text{
+    margin-top: 10%;
+    margin-right: 7%;
+    margin-left: 4%;
+    font-size: large;
+}
+
+.medicine1{
+height: 27%;
+width: 350px;
+border-radius: 5%;
+}
+
+.section5{
+    display: flex;
+    flex-direction:row;
+    margin: 1%;
+    margin-top: 5%;
+
+}
+.medicine2-text{
+    margin-left: 6%;
+    margin-right: 2%;
+}
+
+.medicine2{
+height: 30%;
+width: 30%;
+border-radius: 5%;
+}
+
+.section6{
+    display: flex;
+    flex-direction:row;
+    margin: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.medicine3-text{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.medicine3{
+height: 40%;
+width: 40%;
+border-radius: 5%;
+}
+
+.section7{
+    display: flex;
+    flex-direction:row;
+    margin: 3%;
+
+}
+.infusion1-text{
+    margin-top: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: large;
+}
+
+.infusion1{
+height: 40%;
+width: 40%;
+border-radius: 5%;
+}
+
+.section8{
+    display: flex;
+    flex-direction:row;
+    margin: 2%;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+.infusion2-text{
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.infusion2{
+height: 520px;
+width: 31%;
+border-radius: 5%;
+}
+
+.section9{
+    display: flex;
+    flex-direction:row;
+    margin: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    
+
+}
+.infusion3-text{
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+
+.infusion3{
+height: 520px;
+width: 31%;
+border-radius: 5%;
 }
 
 
