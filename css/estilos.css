@@ -87,6 +87,7 @@ nav a {
 .image-wrapper {
     position: relative;
     width: 100%;
+    max-widht: 1500px;
     height: 800px;
     margin: 0; /* Agrega márgenes en todos los lados */
     background: url('img/header.jpg') center/cover no-repeat;
