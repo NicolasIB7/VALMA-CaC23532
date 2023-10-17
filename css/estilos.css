@@ -364,34 +364,6 @@ input[type="submit"]:hover {
   background-color: #37412c;
 }
 
-/* Estilos del formulario de suscripción */
-
-.subscribe {
-  text-align: center;
-  margin-top: 30px;
-}
-.subscribe-form {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.subscribe-form input[type="email"] {
-  padding: 10px;
-  width: 25%; /* Cambiar el ancho del campo de entrada para llenar el contenedor */
-  border: none;
-  font-family: "Merriweather", serif;
-  color: #4f593f;
-}
-
-.subscribe-form button {
-  padding: 10px 20px;
-  background-color: #4f593f;
-  color: #e9eae9;
-  border: none;
-  cursor: pointer;
-  font-family: "Bitter", serif;
-}
-
 /* Estilos del pie de página */
 footer {
   text-align: center;
