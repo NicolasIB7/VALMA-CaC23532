@@ -145,40 +145,36 @@ nav a {
     margin: 0 auto; /* Centra horizontalmente el contenedor */
 }
 
-    
-/* Estilos del formulario de suscripción */
-
-.subscribe{
-    text-align: center;
-}
-.subscribe-form {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.subscribe-form input[type="email"] {
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  
+  #data-container div {
+    border: 1px solid #ccc;
     padding: 10px;
-    width: 20%; /* Cambiar el ancho del campo de entrada para llenar el contenedor */
-    border: none;
-    font-family: 'Merriweather', serif;
-    color: #4F593F;
-}
-
-.subscribe-form button {
-    padding: 10px 20px;
-    background-color: #4F593F;
-    color: #E9EAE9;
-    border: none;
-    cursor: pointer;
-    font-family: 'Merriweather', serif;
-    margin-top: 10px;
-}
-
-/* Aumentar el tamaño de la letra en "Subscribirse al newsletter" */
-.subscribe h2 {
-    font-size: 23px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
-    margin-bottom: 5px;
-}
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  #data-container h3 {
+    margin-bottom: 15%;
+  }
+  
+  #data-container p {
+    margin-top: 7%;
+  }
+  
+  #data-container img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 5%;
+  }
 
 /* Estilos del pie de página */
 footer {
